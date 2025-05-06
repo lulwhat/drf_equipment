@@ -1,0 +1,4282 @@
+[
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 1,
+    "fields": {
+      "name": "TP-Link TL-WR74",
+      "serial_number_mask": "XXAAAAAXAA"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 2,
+    "fields": {
+      "name": "D-Link DIR-300",
+      "serial_number_mask": "NXXAAXZXaa"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 3,
+    "fields": {
+      "name": "Cisco Catalyst 2960",
+      "serial_number_mask": "NNNZAAAAZZXX"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 4,
+    "fields": {
+      "name": "HP ProCurve 2520",
+      "serial_number_mask": "AXXNNZaaXX"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 5,
+    "fields": {
+      "name": "Ubiquiti EdgeRouter",
+      "serial_number_mask": "XAAXNNNZZA"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 6,
+    "fields": {
+      "name": "MikroTik RB750",
+      "serial_number_mask": "AAXXNNZaa"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 7,
+    "fields": {
+      "name": "Netgear GS724T",
+      "serial_number_mask": "NNXAZZAAXX"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 8,
+    "fields": {
+      "name": "Zyxel GS2200",
+      "serial_number_mask": "AAZNNXAXA"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 9,
+    "fields": {
+      "name": "Huawei S5700",
+      "serial_number_mask": "XXNNZAAZZZ"
+    }
+  },
+  {
+    "model": "equipment_app.equipmenttype",
+    "pk": 10,
+    "fields": {
+      "name": "Juniper EX2200",
+      "serial_number_mask": "NAAXZXXNN"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 1,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "97VDPAH3VV",
+      "notes": "TP-Link TL-WR74 #91",
+      "is_deleted": false,
+      "created_at": "2023-05-11T20:18:29.980371Z",
+      "updated_at": "2023-05-11T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 2,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "62TUUTXROO",
+      "notes": "TP-Link TL-WR74 #54",
+      "is_deleted": false,
+      "created_at": "2024-08-16T20:18:29.980371Z",
+      "updated_at": "2024-08-16T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 3,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "2EQNVMRDWO",
+      "notes": "TP-Link TL-WR74 #83",
+      "is_deleted": false,
+      "created_at": "2024-11-22T20:18:29.980371Z",
+      "updated_at": "2024-11-22T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 4,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "AVBPYCN1OH",
+      "notes": "TP-Link TL-WR74 #60",
+      "is_deleted": false,
+      "created_at": "2023-12-11T20:18:29.980371Z",
+      "updated_at": "2023-12-11T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 5,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "VEKVXVZMUK",
+      "notes": "TP-Link TL-WR74 #58",
+      "is_deleted": false,
+      "created_at": "2024-08-31T20:18:29.980371Z",
+      "updated_at": "2024-08-31T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 6,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "9NRRCNM3OK",
+      "notes": "TP-Link TL-WR74 #60",
+      "is_deleted": false,
+      "created_at": "2024-10-29T20:18:29.980371Z",
+      "updated_at": "2024-10-29T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 7,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "30BLRES2MX",
+      "notes": "TP-Link TL-WR74 #85",
+      "is_deleted": false,
+      "created_at": "2024-07-03T20:18:29.980371Z",
+      "updated_at": "2024-07-03T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 8,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "CCHWGGCKPI",
+      "notes": "TP-Link TL-WR74 #20",
+      "is_deleted": false,
+      "created_at": "2023-09-01T20:18:29.980371Z",
+      "updated_at": "2023-09-01T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 9,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "7DDEIWW0HB",
+      "notes": "TP-Link TL-WR74 #81",
+      "is_deleted": false,
+      "created_at": "2025-02-03T20:18:29.980371Z",
+      "updated_at": "2025-02-03T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 10,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "57OIJYU2KO",
+      "notes": "TP-Link TL-WR74 #51",
+      "is_deleted": false,
+      "created_at": "2023-10-27T20:18:29.980371Z",
+      "updated_at": "2023-10-27T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 11,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "7YHKUEOFPX",
+      "notes": "TP-Link TL-WR74 #24",
+      "is_deleted": false,
+      "created_at": "2024-04-29T20:18:29.980371Z",
+      "updated_at": "2024-04-29T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 12,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "3SCMXAP5HK",
+      "notes": "TP-Link TL-WR74 #70",
+      "is_deleted": false,
+      "created_at": "2024-09-08T20:18:29.980371Z",
+      "updated_at": "2024-09-08T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 13,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "5LLOHCH8GK",
+      "notes": "TP-Link TL-WR74 #51",
+      "is_deleted": false,
+      "created_at": "2024-11-10T20:18:29.980371Z",
+      "updated_at": "2024-11-10T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 14,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "1GKDYUUANM",
+      "notes": "TP-Link TL-WR74 #65",
+      "is_deleted": false,
+      "created_at": "2024-02-07T20:18:29.980371Z",
+      "updated_at": "2024-02-07T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 15,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "WVXGJHPGZL",
+      "notes": "TP-Link TL-WR74 #10",
+      "is_deleted": false,
+      "created_at": "2024-06-06T20:18:29.980371Z",
+      "updated_at": "2024-06-06T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 16,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "Z8AGLKN3KI",
+      "notes": "TP-Link TL-WR74 #78",
+      "is_deleted": false,
+      "created_at": "2025-02-19T20:18:29.980371Z",
+      "updated_at": "2025-02-19T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 17,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "76WXFEX9OI",
+      "notes": "TP-Link TL-WR74 #61",
+      "is_deleted": false,
+      "created_at": "2024-05-22T20:18:29.980371Z",
+      "updated_at": "2024-05-22T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 18,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "V6PVQIT1PK",
+      "notes": "TP-Link TL-WR74 #33",
+      "is_deleted": false,
+      "created_at": "2024-01-04T20:18:29.980371Z",
+      "updated_at": "2024-01-04T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 19,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "3TBPSHVKQY",
+      "notes": "TP-Link TL-WR74 #86",
+      "is_deleted": false,
+      "created_at": "2025-02-05T20:18:29.980371Z",
+      "updated_at": "2025-02-05T20:18:29.980371Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 20,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "7VCACQWYVQ",
+      "notes": "TP-Link TL-WR74 #12",
+      "is_deleted": false,
+      "created_at": "2024-08-12T20:18:29.983276Z",
+      "updated_at": "2024-08-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 21,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "YCJWIHM8PV",
+      "notes": "TP-Link TL-WR74 #77",
+      "is_deleted": false,
+      "created_at": "2024-03-28T20:18:29.983276Z",
+      "updated_at": "2024-03-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 22,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "6OBTVJH7XS",
+      "notes": "TP-Link TL-WR74 #50",
+      "is_deleted": false,
+      "created_at": "2024-04-17T20:18:29.983276Z",
+      "updated_at": "2024-04-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 23,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "JCDKOEO0PN",
+      "notes": "TP-Link TL-WR74 #3",
+      "is_deleted": false,
+      "created_at": "2025-03-26T20:18:29.983276Z",
+      "updated_at": "2025-03-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 24,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "H9ADCQY2LJ",
+      "notes": "TP-Link TL-WR74 #66",
+      "is_deleted": false,
+      "created_at": "2024-03-02T20:18:29.983276Z",
+      "updated_at": "2024-03-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 25,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "VAFOIRUXXG",
+      "notes": "TP-Link TL-WR74 #57",
+      "is_deleted": false,
+      "created_at": "2024-04-16T20:18:29.983276Z",
+      "updated_at": "2024-04-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 26,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "I7VVYZD3FU",
+      "notes": "TP-Link TL-WR74 #17",
+      "is_deleted": false,
+      "created_at": "2024-11-24T20:18:29.983276Z",
+      "updated_at": "2024-11-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 27,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "E9QUJKSUVQ",
+      "notes": "TP-Link TL-WR74 #49",
+      "is_deleted": false,
+      "created_at": "2024-03-19T20:18:29.983276Z",
+      "updated_at": "2024-03-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 28,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "08VOATP3HL",
+      "notes": "TP-Link TL-WR74 #71",
+      "is_deleted": false,
+      "created_at": "2024-07-30T20:18:29.983276Z",
+      "updated_at": "2024-07-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 29,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "QZUVTDJ7DR",
+      "notes": "TP-Link TL-WR74 #39",
+      "is_deleted": false,
+      "created_at": "2024-06-16T20:18:29.983276Z",
+      "updated_at": "2024-06-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 30,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "UAOYSAUGCG",
+      "notes": "TP-Link TL-WR74 #43",
+      "is_deleted": false,
+      "created_at": "2023-11-05T20:18:29.983276Z",
+      "updated_at": "2023-11-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 31,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "H5BEDSTMKS",
+      "notes": "TP-Link TL-WR74 #42",
+      "is_deleted": false,
+      "created_at": "2023-05-11T20:18:29.983276Z",
+      "updated_at": "2023-05-11T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 32,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "6NAWNDZFKF",
+      "notes": "TP-Link TL-WR74 #99",
+      "is_deleted": false,
+      "created_at": "2025-02-16T20:18:29.983276Z",
+      "updated_at": "2025-02-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 33,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "E8SIWOL1EK",
+      "notes": "TP-Link TL-WR74 #4",
+      "is_deleted": false,
+      "created_at": "2024-04-09T20:18:29.983276Z",
+      "updated_at": "2024-04-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 34,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "94MWMQTWVJ",
+      "notes": "TP-Link TL-WR74 #18",
+      "is_deleted": false,
+      "created_at": "2025-04-17T20:18:29.983276Z",
+      "updated_at": "2025-04-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 35,
+    "fields": {
+      "equipment_type": 1,
+      "serial_number": "4NLHORLAGB",
+      "notes": "TP-Link TL-WR74 #41",
+      "is_deleted": false,
+      "created_at": "2024-01-02T20:18:29.983276Z",
+      "updated_at": "2024-01-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 36,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "86YFK2@Hnj",
+      "notes": "D-Link DIR-300 #97",
+      "is_deleted": false,
+      "created_at": "2023-08-08T20:18:29.983276Z",
+      "updated_at": "2023-08-08T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 37,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "3T7EKT-Rek",
+      "notes": "D-Link DIR-300 #16",
+      "is_deleted": false,
+      "created_at": "2024-04-09T20:18:29.983276Z",
+      "updated_at": "2024-04-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 38,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "510FRH-Hcz",
+      "notes": "D-Link DIR-300 #35",
+      "is_deleted": false,
+      "created_at": "2024-03-04T20:18:29.983276Z",
+      "updated_at": "2024-03-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 39,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "52WLQ8_Rnq",
+      "notes": "D-Link DIR-300 #2",
+      "is_deleted": false,
+      "created_at": "2024-06-11T20:18:29.983276Z",
+      "updated_at": "2024-06-11T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 40,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "9A7KRF@2id",
+      "notes": "D-Link DIR-300 #64",
+      "is_deleted": false,
+      "created_at": "2024-07-04T20:18:29.983276Z",
+      "updated_at": "2024-07-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 41,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "2B7JWC-Myh",
+      "notes": "D-Link DIR-300 #52",
+      "is_deleted": false,
+      "created_at": "2025-02-09T20:18:29.983276Z",
+      "updated_at": "2025-02-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 42,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "3XDVC5@Vsd",
+      "notes": "D-Link DIR-300 #35",
+      "is_deleted": false,
+      "created_at": "2024-11-20T20:18:29.983276Z",
+      "updated_at": "2024-11-20T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 43,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "7D3ZG8@Qkk",
+      "notes": "D-Link DIR-300 #8",
+      "is_deleted": false,
+      "created_at": "2023-08-29T20:18:29.983276Z",
+      "updated_at": "2023-08-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 44,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "9U4VVS@3mv",
+      "notes": "D-Link DIR-300 #98",
+      "is_deleted": false,
+      "created_at": "2023-05-21T20:18:29.983276Z",
+      "updated_at": "2023-05-21T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 45,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "893SR2@0nq",
+      "notes": "D-Link DIR-300 #18",
+      "is_deleted": false,
+      "created_at": "2024-03-08T20:18:29.983276Z",
+      "updated_at": "2024-03-08T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 46,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "69ASL3@5bd",
+      "notes": "D-Link DIR-300 #41",
+      "is_deleted": false,
+      "created_at": "2025-03-29T20:18:29.983276Z",
+      "updated_at": "2025-03-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 47,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "7I1NIW_Xbq",
+      "notes": "D-Link DIR-300 #43",
+      "is_deleted": false,
+      "created_at": "2023-09-13T20:18:29.983276Z",
+      "updated_at": "2023-09-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 48,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "8EGPW4-Cyl",
+      "notes": "D-Link DIR-300 #49",
+      "is_deleted": false,
+      "created_at": "2024-04-18T20:18:29.983276Z",
+      "updated_at": "2024-04-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 49,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "9KCUTC@Dlz",
+      "notes": "D-Link DIR-300 #93",
+      "is_deleted": false,
+      "created_at": "2024-06-24T20:18:29.983276Z",
+      "updated_at": "2024-06-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 50,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "37AJJV-4me",
+      "notes": "D-Link DIR-300 #46",
+      "is_deleted": false,
+      "created_at": "2025-01-02T20:18:29.983276Z",
+      "updated_at": "2025-01-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 51,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "45CVGH-4pn",
+      "notes": "D-Link DIR-300 #69",
+      "is_deleted": false,
+      "created_at": "2024-05-08T20:18:29.983276Z",
+      "updated_at": "2024-05-08T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 52,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "037OP8-0ww",
+      "notes": "D-Link DIR-300 #4",
+      "is_deleted": false,
+      "created_at": "2024-09-10T20:18:29.983276Z",
+      "updated_at": "2024-09-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 53,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "3CVEJQ-Fah",
+      "notes": "D-Link DIR-300 #54",
+      "is_deleted": false,
+      "created_at": "2025-02-18T20:18:29.983276Z",
+      "updated_at": "2025-02-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 54,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "21CAFP-1lo",
+      "notes": "D-Link DIR-300 #70",
+      "is_deleted": false,
+      "created_at": "2023-05-27T20:18:29.983276Z",
+      "updated_at": "2023-05-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 55,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "8Q2UJ2-1my",
+      "notes": "D-Link DIR-300 #77",
+      "is_deleted": false,
+      "created_at": "2023-09-09T20:18:29.983276Z",
+      "updated_at": "2023-09-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 56,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "38BSB8-3pj",
+      "notes": "D-Link DIR-300 #75",
+      "is_deleted": false,
+      "created_at": "2025-05-03T20:18:29.983276Z",
+      "updated_at": "2025-05-03T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 57,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "67JRGG-Edv",
+      "notes": "D-Link DIR-300 #87",
+      "is_deleted": false,
+      "created_at": "2023-10-16T20:18:29.983276Z",
+      "updated_at": "2023-10-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 58,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "0N1HBA@9ah",
+      "notes": "D-Link DIR-300 #47",
+      "is_deleted": false,
+      "created_at": "2024-02-15T20:18:29.983276Z",
+      "updated_at": "2024-02-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 59,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "631GP7-Sjs",
+      "notes": "D-Link DIR-300 #33",
+      "is_deleted": false,
+      "created_at": "2024-01-31T20:18:29.983276Z",
+      "updated_at": "2024-01-31T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 60,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "70HJCZ-Cel",
+      "notes": "D-Link DIR-300 #64",
+      "is_deleted": false,
+      "created_at": "2023-07-16T20:18:29.983276Z",
+      "updated_at": "2023-07-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 61,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "90MVRM-Jsi",
+      "notes": "D-Link DIR-300 #35",
+      "is_deleted": false,
+      "created_at": "2024-09-26T20:18:29.983276Z",
+      "updated_at": "2024-09-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 62,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "5WZMF6_Mlw",
+      "notes": "D-Link DIR-300 #57",
+      "is_deleted": false,
+      "created_at": "2024-08-21T20:18:29.983276Z",
+      "updated_at": "2024-08-21T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 63,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "12WRT1-8cx",
+      "notes": "D-Link DIR-300 #68",
+      "is_deleted": false,
+      "created_at": "2023-12-21T20:18:29.983276Z",
+      "updated_at": "2023-12-21T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 64,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "22LUX1@Jqf",
+      "notes": "D-Link DIR-300 #62",
+      "is_deleted": false,
+      "created_at": "2023-08-15T20:18:29.983276Z",
+      "updated_at": "2023-08-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 65,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "875UK7_Uzu",
+      "notes": "D-Link DIR-300 #13",
+      "is_deleted": false,
+      "created_at": "2024-10-13T20:18:29.983276Z",
+      "updated_at": "2024-10-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 66,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "2L1NS1@5bx",
+      "notes": "D-Link DIR-300 #53",
+      "is_deleted": false,
+      "created_at": "2024-04-15T20:18:29.983276Z",
+      "updated_at": "2024-04-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 67,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "3OMRI3-2az",
+      "notes": "D-Link DIR-300 #7",
+      "is_deleted": false,
+      "created_at": "2024-08-26T20:18:29.983276Z",
+      "updated_at": "2024-08-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 68,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "0CHWG8-Jzy",
+      "notes": "D-Link DIR-300 #91",
+      "is_deleted": false,
+      "created_at": "2023-05-28T20:18:29.983276Z",
+      "updated_at": "2023-05-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 69,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "343FL8-Ivi",
+      "notes": "D-Link DIR-300 #4",
+      "is_deleted": false,
+      "created_at": "2023-10-17T20:18:29.983276Z",
+      "updated_at": "2023-10-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 70,
+    "fields": {
+      "equipment_type": 2,
+      "serial_number": "40GSIB_7rj",
+      "notes": "D-Link DIR-300 #43",
+      "is_deleted": false,
+      "created_at": "2023-10-23T20:18:29.983276Z",
+      "updated_at": "2023-10-23T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 71,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "623YNFT_UR",
+      "notes": "Cisco Catalyst 2960 #90",
+      "is_deleted": false,
+      "created_at": "2024-10-01T20:18:29.983276Z",
+      "updated_at": "2024-10-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 72,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "003KUDQ@S4",
+      "notes": "Cisco Catalyst 2960 #20",
+      "is_deleted": false,
+      "created_at": "2025-02-26T20:18:29.983276Z",
+      "updated_at": "2025-02-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 73,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "532VHZM@RN",
+      "notes": "Cisco Catalyst 2960 #49",
+      "is_deleted": false,
+      "created_at": "2024-12-28T20:18:29.983276Z",
+      "updated_at": "2024-12-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 74,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "648BTJE_K4",
+      "notes": "Cisco Catalyst 2960 #57",
+      "is_deleted": false,
+      "created_at": "2023-09-18T20:18:29.983276Z",
+      "updated_at": "2023-09-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 75,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "717NEJM-06",
+      "notes": "Cisco Catalyst 2960 #29",
+      "is_deleted": false,
+      "created_at": "2024-01-30T20:18:29.983276Z",
+      "updated_at": "2024-01-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 76,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "334KGFU@9T",
+      "notes": "Cisco Catalyst 2960 #29",
+      "is_deleted": false,
+      "created_at": "2024-05-24T20:18:29.983276Z",
+      "updated_at": "2024-05-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 77,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "734XORO_3D",
+      "notes": "Cisco Catalyst 2960 #28",
+      "is_deleted": false,
+      "created_at": "2024-07-05T20:18:29.983276Z",
+      "updated_at": "2024-07-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 78,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "386BXGF_68",
+      "notes": "Cisco Catalyst 2960 #57",
+      "is_deleted": false,
+      "created_at": "2023-10-14T20:18:29.983276Z",
+      "updated_at": "2023-10-14T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 79,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "815HWZC_X3",
+      "notes": "Cisco Catalyst 2960 #17",
+      "is_deleted": false,
+      "created_at": "2023-12-15T20:18:29.983276Z",
+      "updated_at": "2023-12-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 80,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "511QYRK@28",
+      "notes": "Cisco Catalyst 2960 #52",
+      "is_deleted": false,
+      "created_at": "2025-02-22T20:18:29.983276Z",
+      "updated_at": "2025-02-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 81,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "328CZJE-XF",
+      "notes": "Cisco Catalyst 2960 #40",
+      "is_deleted": false,
+      "created_at": "2024-07-18T20:18:29.983276Z",
+      "updated_at": "2024-07-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 82,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "619YAPG@4N",
+      "notes": "Cisco Catalyst 2960 #80",
+      "is_deleted": false,
+      "created_at": "2024-07-18T20:18:29.983276Z",
+      "updated_at": "2024-07-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 83,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "130DUIO-ZC",
+      "notes": "Cisco Catalyst 2960 #84",
+      "is_deleted": false,
+      "created_at": "2023-10-12T20:18:29.983276Z",
+      "updated_at": "2023-10-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 84,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "305KAKT_DD",
+      "notes": "Cisco Catalyst 2960 #47",
+      "is_deleted": false,
+      "created_at": "2024-06-29T20:18:29.983276Z",
+      "updated_at": "2024-06-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 85,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "266IKLO-18",
+      "notes": "Cisco Catalyst 2960 #32",
+      "is_deleted": false,
+      "created_at": "2025-03-28T20:18:29.983276Z",
+      "updated_at": "2025-03-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 86,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "681XLJR@01",
+      "notes": "Cisco Catalyst 2960 #13",
+      "is_deleted": false,
+      "created_at": "2023-05-27T20:18:29.983276Z",
+      "updated_at": "2023-05-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 87,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "885RTYG_9I",
+      "notes": "Cisco Catalyst 2960 #52",
+      "is_deleted": false,
+      "created_at": "2024-08-29T20:18:29.983276Z",
+      "updated_at": "2024-08-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 88,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "779YZDE@6J",
+      "notes": "Cisco Catalyst 2960 #19",
+      "is_deleted": false,
+      "created_at": "2023-07-01T20:18:29.983276Z",
+      "updated_at": "2023-07-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 89,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "393QNAX@7Y",
+      "notes": "Cisco Catalyst 2960 #58",
+      "is_deleted": false,
+      "created_at": "2023-09-25T20:18:29.983276Z",
+      "updated_at": "2023-09-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 90,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "433YMEE@4H",
+      "notes": "Cisco Catalyst 2960 #97",
+      "is_deleted": false,
+      "created_at": "2024-05-01T20:18:29.983276Z",
+      "updated_at": "2024-05-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 91,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "848TLPM-06",
+      "notes": "Cisco Catalyst 2960 #89",
+      "is_deleted": false,
+      "created_at": "2024-05-24T20:18:29.983276Z",
+      "updated_at": "2024-05-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 92,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "957MTNL@MR",
+      "notes": "Cisco Catalyst 2960 #49",
+      "is_deleted": false,
+      "created_at": "2023-10-04T20:18:29.983276Z",
+      "updated_at": "2023-10-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 93,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "524RUAD-LL",
+      "notes": "Cisco Catalyst 2960 #25",
+      "is_deleted": false,
+      "created_at": "2024-01-05T20:18:29.983276Z",
+      "updated_at": "2024-01-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 94,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "827IZDJ-PW",
+      "notes": "Cisco Catalyst 2960 #56",
+      "is_deleted": false,
+      "created_at": "2025-04-17T20:18:29.983276Z",
+      "updated_at": "2025-04-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 95,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "991VTAN-BU",
+      "notes": "Cisco Catalyst 2960 #94",
+      "is_deleted": false,
+      "created_at": "2025-01-02T20:18:29.983276Z",
+      "updated_at": "2025-01-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 96,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "097EJOZ_89",
+      "notes": "Cisco Catalyst 2960 #78",
+      "is_deleted": false,
+      "created_at": "2024-09-18T20:18:29.983276Z",
+      "updated_at": "2024-09-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 97,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "906RVUR@N3",
+      "notes": "Cisco Catalyst 2960 #98",
+      "is_deleted": false,
+      "created_at": "2024-10-26T20:18:29.983276Z",
+      "updated_at": "2024-10-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 98,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "320TVJU_R4",
+      "notes": "Cisco Catalyst 2960 #44",
+      "is_deleted": false,
+      "created_at": "2023-12-19T20:18:29.983276Z",
+      "updated_at": "2023-12-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 99,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "410BQZW@NB",
+      "notes": "Cisco Catalyst 2960 #60",
+      "is_deleted": false,
+      "created_at": "2023-12-06T20:18:29.983276Z",
+      "updated_at": "2023-12-06T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 100,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "546ZQOE@7N",
+      "notes": "Cisco Catalyst 2960 #89",
+      "is_deleted": false,
+      "created_at": "2024-05-12T20:18:29.983276Z",
+      "updated_at": "2024-05-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 101,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "392QRYO@90",
+      "notes": "Cisco Catalyst 2960 #87",
+      "is_deleted": false,
+      "created_at": "2023-12-12T20:18:29.983276Z",
+      "updated_at": "2023-12-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 102,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "337LVLF-Y7",
+      "notes": "Cisco Catalyst 2960 #27",
+      "is_deleted": false,
+      "created_at": "2024-03-02T20:18:29.983276Z",
+      "updated_at": "2024-03-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 103,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "790ZMEM_DN",
+      "notes": "Cisco Catalyst 2960 #30",
+      "is_deleted": false,
+      "created_at": "2023-07-21T20:18:29.983276Z",
+      "updated_at": "2023-07-21T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 104,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "455VOVZ-15",
+      "notes": "Cisco Catalyst 2960 #1",
+      "is_deleted": false,
+      "created_at": "2024-01-19T20:18:29.983276Z",
+      "updated_at": "2024-01-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 105,
+    "fields": {
+      "equipment_type": 3,
+      "serial_number": "305TCGM@43",
+      "notes": "Cisco Catalyst 2960 #100",
+      "is_deleted": false,
+      "created_at": "2025-02-17T20:18:29.983276Z",
+      "updated_at": "2025-02-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 106,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "M8T61_yj4T",
+      "notes": "HP ProCurve 2520 #99",
+      "is_deleted": false,
+      "created_at": "2024-09-05T20:18:29.983276Z",
+      "updated_at": "2024-09-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 107,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "KZY49_fjFC",
+      "notes": "HP ProCurve 2520 #78",
+      "is_deleted": false,
+      "created_at": "2024-09-01T20:18:29.983276Z",
+      "updated_at": "2024-09-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 108,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "UJK20_xn0B",
+      "notes": "HP ProCurve 2520 #75",
+      "is_deleted": false,
+      "created_at": "2024-03-24T20:18:29.983276Z",
+      "updated_at": "2024-03-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 109,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "TT364-xj71",
+      "notes": "HP ProCurve 2520 #50",
+      "is_deleted": false,
+      "created_at": "2024-08-16T20:18:29.983276Z",
+      "updated_at": "2024-08-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 110,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "K0779-rc84",
+      "notes": "HP ProCurve 2520 #100",
+      "is_deleted": false,
+      "created_at": "2024-11-26T20:18:29.983276Z",
+      "updated_at": "2024-11-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 111,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "H8555-opH1",
+      "notes": "HP ProCurve 2520 #32",
+      "is_deleted": false,
+      "created_at": "2025-04-10T20:18:29.983276Z",
+      "updated_at": "2025-04-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 112,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "WK241-js9U",
+      "notes": "HP ProCurve 2520 #61",
+      "is_deleted": false,
+      "created_at": "2023-05-05T20:18:29.983276Z",
+      "updated_at": "2023-05-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 113,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "D0L85-ocT8",
+      "notes": "HP ProCurve 2520 #17",
+      "is_deleted": false,
+      "created_at": "2024-12-15T20:18:29.983276Z",
+      "updated_at": "2024-12-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 114,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "LZW54_hpTX",
+      "notes": "HP ProCurve 2520 #13",
+      "is_deleted": false,
+      "created_at": "2023-09-17T20:18:29.983276Z",
+      "updated_at": "2023-09-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 115,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "R3J89_tp86",
+      "notes": "HP ProCurve 2520 #43",
+      "is_deleted": false,
+      "created_at": "2023-09-12T20:18:29.983276Z",
+      "updated_at": "2023-09-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 116,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "REP82-wr39",
+      "notes": "HP ProCurve 2520 #75",
+      "is_deleted": false,
+      "created_at": "2025-01-30T20:18:29.983276Z",
+      "updated_at": "2025-01-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 117,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "F6528@tcG2",
+      "notes": "HP ProCurve 2520 #5",
+      "is_deleted": false,
+      "created_at": "2024-12-19T20:18:29.983276Z",
+      "updated_at": "2024-12-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 118,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "Q5080-cvY8",
+      "notes": "HP ProCurve 2520 #49",
+      "is_deleted": false,
+      "created_at": "2024-02-15T20:18:29.983276Z",
+      "updated_at": "2024-02-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 119,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "OE517-jr9S",
+      "notes": "HP ProCurve 2520 #76",
+      "is_deleted": false,
+      "created_at": "2024-08-19T20:18:29.983276Z",
+      "updated_at": "2024-08-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 120,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "C4517_rc55",
+      "notes": "HP ProCurve 2520 #94",
+      "is_deleted": false,
+      "created_at": "2025-03-09T20:18:29.983276Z",
+      "updated_at": "2025-03-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 121,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "JX640-xdD6",
+      "notes": "HP ProCurve 2520 #39",
+      "is_deleted": false,
+      "created_at": "2024-11-15T20:18:29.983276Z",
+      "updated_at": "2024-11-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 122,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "I4125@jt36",
+      "notes": "HP ProCurve 2520 #50",
+      "is_deleted": false,
+      "created_at": "2025-02-13T20:18:29.983276Z",
+      "updated_at": "2025-02-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 123,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "CTS18_wsMZ",
+      "notes": "HP ProCurve 2520 #27",
+      "is_deleted": false,
+      "created_at": "2023-11-22T20:18:29.983276Z",
+      "updated_at": "2023-11-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 124,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "E4Q75@dnCD",
+      "notes": "HP ProCurve 2520 #87",
+      "is_deleted": false,
+      "created_at": "2025-03-21T20:18:29.983276Z",
+      "updated_at": "2025-03-21T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 125,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "W5983@dbEA",
+      "notes": "HP ProCurve 2520 #37",
+      "is_deleted": false,
+      "created_at": "2024-04-10T20:18:29.983276Z",
+      "updated_at": "2024-04-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 126,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "O1U14@qyH6",
+      "notes": "HP ProCurve 2520 #46",
+      "is_deleted": false,
+      "created_at": "2023-12-07T20:18:29.983276Z",
+      "updated_at": "2023-12-07T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 127,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "S3O19_iu34",
+      "notes": "HP ProCurve 2520 #44",
+      "is_deleted": false,
+      "created_at": "2024-04-19T20:18:29.983276Z",
+      "updated_at": "2024-04-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 128,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "N5828_az53",
+      "notes": "HP ProCurve 2520 #25",
+      "is_deleted": false,
+      "created_at": "2023-07-15T20:18:29.983276Z",
+      "updated_at": "2023-07-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 129,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "TX059_soY1",
+      "notes": "HP ProCurve 2520 #36",
+      "is_deleted": false,
+      "created_at": "2023-08-05T20:18:29.983276Z",
+      "updated_at": "2023-08-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 130,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "CVP58_bz45",
+      "notes": "HP ProCurve 2520 #54",
+      "is_deleted": false,
+      "created_at": "2024-02-19T20:18:29.983276Z",
+      "updated_at": "2024-02-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 131,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "M5T66-yhF5",
+      "notes": "HP ProCurve 2520 #26",
+      "is_deleted": false,
+      "created_at": "2025-05-03T20:18:29.983276Z",
+      "updated_at": "2025-05-03T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 132,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "XFU73@ygN4",
+      "notes": "HP ProCurve 2520 #37",
+      "is_deleted": false,
+      "created_at": "2024-10-29T20:18:29.983276Z",
+      "updated_at": "2024-10-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 133,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "Q0A52_ahGA",
+      "notes": "HP ProCurve 2520 #19",
+      "is_deleted": false,
+      "created_at": "2025-03-11T20:18:29.983276Z",
+      "updated_at": "2025-03-11T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 134,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "NZM78_cm11",
+      "notes": "HP ProCurve 2520 #48",
+      "is_deleted": false,
+      "created_at": "2023-08-10T20:18:29.983276Z",
+      "updated_at": "2023-08-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 135,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "W4M28-smBD",
+      "notes": "HP ProCurve 2520 #53",
+      "is_deleted": false,
+      "created_at": "2024-09-22T20:18:29.983276Z",
+      "updated_at": "2024-09-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 136,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "H8293_cqH6",
+      "notes": "HP ProCurve 2520 #75",
+      "is_deleted": false,
+      "created_at": "2023-06-05T20:18:29.983276Z",
+      "updated_at": "2023-06-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 137,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "I1C42_zz63",
+      "notes": "HP ProCurve 2520 #16",
+      "is_deleted": false,
+      "created_at": "2023-05-13T20:18:29.983276Z",
+      "updated_at": "2023-05-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 138,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "T1V12-kt11",
+      "notes": "HP ProCurve 2520 #12",
+      "is_deleted": false,
+      "created_at": "2023-11-30T20:18:29.983276Z",
+      "updated_at": "2023-11-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 139,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "Z1114_jxLH",
+      "notes": "HP ProCurve 2520 #90",
+      "is_deleted": false,
+      "created_at": "2024-12-11T20:18:29.983276Z",
+      "updated_at": "2024-12-11T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 140,
+    "fields": {
+      "equipment_type": 4,
+      "serial_number": "K3290@ap57",
+      "notes": "HP ProCurve 2520 #34",
+      "is_deleted": false,
+      "created_at": "2024-05-26T20:18:29.983276Z",
+      "updated_at": "2024-05-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 141,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "2JHI236_Z",
+      "notes": "Ubiquiti EdgeRouter #28",
+      "is_deleted": false,
+      "created_at": "2024-01-22T20:18:29.983276Z",
+      "updated_at": "2024-01-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 142,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "RJT5132@A",
+      "notes": "Ubiquiti EdgeRouter #34",
+      "is_deleted": false,
+      "created_at": "2024-03-22T20:18:29.983276Z",
+      "updated_at": "2024-03-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 143,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "5VSH041-Y",
+      "notes": "Ubiquiti EdgeRouter #57",
+      "is_deleted": false,
+      "created_at": "2023-11-12T20:18:29.983276Z",
+      "updated_at": "2023-11-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 144,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "7IYS718@A",
+      "notes": "Ubiquiti EdgeRouter #72",
+      "is_deleted": false,
+      "created_at": "2025-03-10T20:18:29.983276Z",
+      "updated_at": "2025-03-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 145,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4JQL523_O",
+      "notes": "Ubiquiti EdgeRouter #54",
+      "is_deleted": false,
+      "created_at": "2025-02-27T20:18:29.983276Z",
+      "updated_at": "2025-02-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 146,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "1TFC479@G",
+      "notes": "Ubiquiti EdgeRouter #55",
+      "is_deleted": false,
+      "created_at": "2024-06-08T20:18:29.983276Z",
+      "updated_at": "2024-06-08T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 147,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "ZYQ4348_L",
+      "notes": "Ubiquiti EdgeRouter #85",
+      "is_deleted": false,
+      "created_at": "2024-10-15T20:18:29.983276Z",
+      "updated_at": "2024-10-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 148,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "VMDN684_O",
+      "notes": "Ubiquiti EdgeRouter #7",
+      "is_deleted": false,
+      "created_at": "2024-01-24T20:18:29.983276Z",
+      "updated_at": "2024-01-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 149,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "7GUF196_W",
+      "notes": "Ubiquiti EdgeRouter #63",
+      "is_deleted": false,
+      "created_at": "2025-04-19T20:18:29.983276Z",
+      "updated_at": "2025-04-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 150,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "5CFB526_N",
+      "notes": "Ubiquiti EdgeRouter #7",
+      "is_deleted": false,
+      "created_at": "2024-05-27T20:18:29.983276Z",
+      "updated_at": "2024-05-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 151,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "9BWB642-A",
+      "notes": "Ubiquiti EdgeRouter #25",
+      "is_deleted": false,
+      "created_at": "2024-04-04T20:18:29.983276Z",
+      "updated_at": "2024-04-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 152,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "GQBN709-R",
+      "notes": "Ubiquiti EdgeRouter #57",
+      "is_deleted": false,
+      "created_at": "2025-04-09T20:18:29.983276Z",
+      "updated_at": "2025-04-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 153,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "9AB6091_R",
+      "notes": "Ubiquiti EdgeRouter #35",
+      "is_deleted": false,
+      "created_at": "2023-05-26T20:18:29.983276Z",
+      "updated_at": "2023-05-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 154,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4GFN001-J",
+      "notes": "Ubiquiti EdgeRouter #82",
+      "is_deleted": false,
+      "created_at": "2024-08-17T20:18:29.983276Z",
+      "updated_at": "2024-08-17T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 155,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4PQ2945_W",
+      "notes": "Ubiquiti EdgeRouter #34",
+      "is_deleted": false,
+      "created_at": "2025-03-04T20:18:29.983276Z",
+      "updated_at": "2025-03-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 156,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "SYS3709_S",
+      "notes": "Ubiquiti EdgeRouter #2",
+      "is_deleted": false,
+      "created_at": "2023-10-24T20:18:29.983276Z",
+      "updated_at": "2023-10-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 157,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "6YJ2742@Y",
+      "notes": "Ubiquiti EdgeRouter #41",
+      "is_deleted": false,
+      "created_at": "2023-11-03T20:18:29.983276Z",
+      "updated_at": "2023-11-03T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 158,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "SDW0562_T",
+      "notes": "Ubiquiti EdgeRouter #53",
+      "is_deleted": false,
+      "created_at": "2024-11-13T20:18:29.983276Z",
+      "updated_at": "2024-11-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 159,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4AF3588@B",
+      "notes": "Ubiquiti EdgeRouter #2",
+      "is_deleted": false,
+      "created_at": "2024-12-13T20:18:29.983276Z",
+      "updated_at": "2024-12-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 160,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "1IK7852@O",
+      "notes": "Ubiquiti EdgeRouter #75",
+      "is_deleted": false,
+      "created_at": "2025-03-01T20:18:29.983276Z",
+      "updated_at": "2025-03-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 161,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "7HBA813@K",
+      "notes": "Ubiquiti EdgeRouter #57",
+      "is_deleted": false,
+      "created_at": "2023-06-02T20:18:29.983276Z",
+      "updated_at": "2023-06-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 162,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4GM6086@V",
+      "notes": "Ubiquiti EdgeRouter #25",
+      "is_deleted": false,
+      "created_at": "2024-07-31T20:18:29.983276Z",
+      "updated_at": "2024-07-31T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 163,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "QWLH313-D",
+      "notes": "Ubiquiti EdgeRouter #87",
+      "is_deleted": false,
+      "created_at": "2024-07-26T20:18:29.983276Z",
+      "updated_at": "2024-07-26T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 164,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "1SAG312-S",
+      "notes": "Ubiquiti EdgeRouter #46",
+      "is_deleted": false,
+      "created_at": "2024-02-27T20:18:29.983276Z",
+      "updated_at": "2024-02-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 165,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "3TM5638@P",
+      "notes": "Ubiquiti EdgeRouter #91",
+      "is_deleted": false,
+      "created_at": "2024-12-29T20:18:29.983276Z",
+      "updated_at": "2024-12-29T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 166,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "RJUC802_Z",
+      "notes": "Ubiquiti EdgeRouter #60",
+      "is_deleted": false,
+      "created_at": "2025-03-09T20:18:29.983276Z",
+      "updated_at": "2025-03-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 167,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "GWAR213-Q",
+      "notes": "Ubiquiti EdgeRouter #52",
+      "is_deleted": false,
+      "created_at": "2023-05-11T20:18:29.983276Z",
+      "updated_at": "2023-05-11T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 168,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "4MZM275-Y",
+      "notes": "Ubiquiti EdgeRouter #55",
+      "is_deleted": false,
+      "created_at": "2025-01-30T20:18:29.983276Z",
+      "updated_at": "2025-01-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 169,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "2QY6408@T",
+      "notes": "Ubiquiti EdgeRouter #82",
+      "is_deleted": false,
+      "created_at": "2024-04-05T20:18:29.983276Z",
+      "updated_at": "2024-04-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 170,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "6KI8512-D",
+      "notes": "Ubiquiti EdgeRouter #83",
+      "is_deleted": false,
+      "created_at": "2024-06-02T20:18:29.983276Z",
+      "updated_at": "2024-06-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 171,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "PKC9830_G",
+      "notes": "Ubiquiti EdgeRouter #85",
+      "is_deleted": false,
+      "created_at": "2024-08-09T20:18:29.983276Z",
+      "updated_at": "2024-08-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 172,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "LCO6860_D",
+      "notes": "Ubiquiti EdgeRouter #32",
+      "is_deleted": false,
+      "created_at": "2023-09-10T20:18:29.983276Z",
+      "updated_at": "2023-09-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 173,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "6NVW329-X",
+      "notes": "Ubiquiti EdgeRouter #3",
+      "is_deleted": false,
+      "created_at": "2024-05-04T20:18:29.983276Z",
+      "updated_at": "2024-05-04T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 174,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "5IMK947_Z",
+      "notes": "Ubiquiti EdgeRouter #78",
+      "is_deleted": false,
+      "created_at": "2023-10-30T20:18:29.983276Z",
+      "updated_at": "2023-10-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 175,
+    "fields": {
+      "equipment_type": 5,
+      "serial_number": "3YQL674_Z",
+      "notes": "Ubiquiti EdgeRouter #54",
+      "is_deleted": false,
+      "created_at": "2023-12-05T20:18:29.983276Z",
+      "updated_at": "2023-12-05T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 176,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "UL6U45kb",
+      "notes": "MikroTik RB750 #78",
+      "is_deleted": false,
+      "created_at": "2025-04-12T20:18:29.983276Z",
+      "updated_at": "2025-04-12T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 177,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "LH2476oq",
+      "notes": "MikroTik RB750 #62",
+      "is_deleted": false,
+      "created_at": "2023-11-14T20:18:29.983276Z",
+      "updated_at": "2023-11-14T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 178,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "FC3065ot",
+      "notes": "MikroTik RB750 #1",
+      "is_deleted": false,
+      "created_at": "2024-03-24T20:18:29.983276Z",
+      "updated_at": "2024-03-24T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 179,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "ABI409vl",
+      "notes": "MikroTik RB750 #64",
+      "is_deleted": false,
+      "created_at": "2024-01-27T20:18:29.983276Z",
+      "updated_at": "2024-01-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 180,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "VA0161hk",
+      "notes": "MikroTik RB750 #3",
+      "is_deleted": false,
+      "created_at": "2024-10-10T20:18:29.983276Z",
+      "updated_at": "2024-10-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 181,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "VP1902jw",
+      "notes": "MikroTik RB750 #87",
+      "is_deleted": false,
+      "created_at": "2024-01-06T20:18:29.983276Z",
+      "updated_at": "2024-01-06T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 182,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "BBTV21sa",
+      "notes": "MikroTik RB750 #83",
+      "is_deleted": false,
+      "created_at": "2023-09-06T20:18:29.983276Z",
+      "updated_at": "2023-09-06T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 183,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "UBLA33jq",
+      "notes": "MikroTik RB750 #14",
+      "is_deleted": false,
+      "created_at": "2024-07-06T20:18:29.983276Z",
+      "updated_at": "2024-07-06T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 184,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "JS4072pn",
+      "notes": "MikroTik RB750 #22",
+      "is_deleted": false,
+      "created_at": "2023-12-02T20:18:29.983276Z",
+      "updated_at": "2023-12-02T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 185,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "MS0655az",
+      "notes": "MikroTik RB750 #14",
+      "is_deleted": false,
+      "created_at": "2024-04-14T20:18:29.983276Z",
+      "updated_at": "2024-04-14T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 186,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "SSF464pd",
+      "notes": "MikroTik RB750 #55",
+      "is_deleted": false,
+      "created_at": "2024-03-25T20:18:29.983276Z",
+      "updated_at": "2024-03-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 187,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "LOIT21kf",
+      "notes": "MikroTik RB750 #39",
+      "is_deleted": false,
+      "created_at": "2024-02-13T20:18:29.983276Z",
+      "updated_at": "2024-02-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 188,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "AZR169cc",
+      "notes": "MikroTik RB750 #1",
+      "is_deleted": false,
+      "created_at": "2023-07-22T20:18:29.983276Z",
+      "updated_at": "2023-07-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 189,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "SEQQ84ek",
+      "notes": "MikroTik RB750 #49",
+      "is_deleted": false,
+      "created_at": "2024-05-07T20:18:29.983276Z",
+      "updated_at": "2024-05-07T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 190,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "VB6345xu",
+      "notes": "MikroTik RB750 #67",
+      "is_deleted": false,
+      "created_at": "2024-10-15T20:18:29.983276Z",
+      "updated_at": "2024-10-15T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 191,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "DG2418lx",
+      "notes": "MikroTik RB750 #76",
+      "is_deleted": false,
+      "created_at": "2025-01-25T20:18:29.983276Z",
+      "updated_at": "2025-01-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 192,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "AHFE74ah",
+      "notes": "MikroTik RB750 #50",
+      "is_deleted": false,
+      "created_at": "2023-10-30T20:18:29.983276Z",
+      "updated_at": "2023-10-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 193,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "QY8N14pa",
+      "notes": "MikroTik RB750 #22",
+      "is_deleted": false,
+      "created_at": "2024-10-01T20:18:29.983276Z",
+      "updated_at": "2024-10-01T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 194,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "EEJC80qi",
+      "notes": "MikroTik RB750 #35",
+      "is_deleted": false,
+      "created_at": "2024-01-30T20:18:29.983276Z",
+      "updated_at": "2024-01-30T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 195,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "PZV096ic",
+      "notes": "MikroTik RB750 #8",
+      "is_deleted": false,
+      "created_at": "2024-10-19T20:18:29.983276Z",
+      "updated_at": "2024-10-19T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 196,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "PS1669uc",
+      "notes": "MikroTik RB750 #71",
+      "is_deleted": false,
+      "created_at": "2023-08-13T20:18:29.983276Z",
+      "updated_at": "2023-08-13T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 197,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "NR5S17zs",
+      "notes": "MikroTik RB750 #11",
+      "is_deleted": false,
+      "created_at": "2024-09-22T20:18:29.983276Z",
+      "updated_at": "2024-09-22T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 198,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "GDBE59di",
+      "notes": "MikroTik RB750 #70",
+      "is_deleted": false,
+      "created_at": "2025-01-28T20:18:29.983276Z",
+      "updated_at": "2025-01-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 199,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "EY1658no",
+      "notes": "MikroTik RB750 #16",
+      "is_deleted": false,
+      "created_at": "2025-03-25T20:18:29.983276Z",
+      "updated_at": "2025-03-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 200,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "WT2595zn",
+      "notes": "MikroTik RB750 #15",
+      "is_deleted": false,
+      "created_at": "2024-04-25T20:18:29.983276Z",
+      "updated_at": "2024-04-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 201,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "DE5809ya",
+      "notes": "MikroTik RB750 #23",
+      "is_deleted": false,
+      "created_at": "2025-01-16T20:18:29.983276Z",
+      "updated_at": "2025-01-16T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 202,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "JB5K86rc",
+      "notes": "MikroTik RB750 #21",
+      "is_deleted": false,
+      "created_at": "2023-10-18T20:18:29.983276Z",
+      "updated_at": "2023-10-18T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 203,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "CWC688ie",
+      "notes": "MikroTik RB750 #19",
+      "is_deleted": false,
+      "created_at": "2024-05-31T20:18:29.983276Z",
+      "updated_at": "2024-05-31T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 204,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "ZXTF20hx",
+      "notes": "MikroTik RB750 #18",
+      "is_deleted": false,
+      "created_at": "2024-01-27T20:18:29.983276Z",
+      "updated_at": "2024-01-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 205,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "RISC60fo",
+      "notes": "MikroTik RB750 #35",
+      "is_deleted": false,
+      "created_at": "2023-07-27T20:18:29.983276Z",
+      "updated_at": "2023-07-27T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 206,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "OU9I82jr",
+      "notes": "MikroTik RB750 #56",
+      "is_deleted": false,
+      "created_at": "2023-08-09T20:18:29.983276Z",
+      "updated_at": "2023-08-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 207,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "HW3T74qj",
+      "notes": "MikroTik RB750 #94",
+      "is_deleted": false,
+      "created_at": "2025-03-28T20:18:29.983276Z",
+      "updated_at": "2025-03-28T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 208,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "QN6O88pb",
+      "notes": "MikroTik RB750 #63",
+      "is_deleted": false,
+      "created_at": "2024-09-10T20:18:29.983276Z",
+      "updated_at": "2024-09-10T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 209,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "NX5J17cm",
+      "notes": "MikroTik RB750 #57",
+      "is_deleted": false,
+      "created_at": "2024-10-09T20:18:29.983276Z",
+      "updated_at": "2024-10-09T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 210,
+    "fields": {
+      "equipment_type": 6,
+      "serial_number": "DAT214cq",
+      "notes": "MikroTik RB750 #22",
+      "is_deleted": false,
+      "created_at": "2024-05-25T20:18:29.983276Z",
+      "updated_at": "2024-05-25T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 211,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "666D@SV3X",
+      "notes": "Netgear GS724T #26",
+      "is_deleted": false,
+      "created_at": "2023-05-14T20:18:29.983276Z",
+      "updated_at": "2023-05-14T20:18:29.983276Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 212,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "353K@HJ35",
+      "notes": "Netgear GS724T #52",
+      "is_deleted": false,
+      "created_at": "2024-05-12T20:18:29.985281Z",
+      "updated_at": "2024-05-12T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 213,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "44LO-MBP6",
+      "notes": "Netgear GS724T #4",
+      "is_deleted": false,
+      "created_at": "2023-07-26T20:18:29.985281Z",
+      "updated_at": "2023-07-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 214,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "27ZA@MFP3",
+      "notes": "Netgear GS724T #77",
+      "is_deleted": false,
+      "created_at": "2023-07-23T20:18:29.985281Z",
+      "updated_at": "2023-07-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 215,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "87DB-FKV7",
+      "notes": "Netgear GS724T #57",
+      "is_deleted": false,
+      "created_at": "2023-10-01T20:18:29.985281Z",
+      "updated_at": "2023-10-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 216,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "70HW@SXK8",
+      "notes": "Netgear GS724T #9",
+      "is_deleted": false,
+      "created_at": "2025-04-25T20:18:29.985281Z",
+      "updated_at": "2025-04-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 217,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "82WU@VEOC",
+      "notes": "Netgear GS724T #51",
+      "is_deleted": false,
+      "created_at": "2025-04-16T20:18:29.985281Z",
+      "updated_at": "2025-04-16T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 218,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "54AK-DL96",
+      "notes": "Netgear GS724T #3",
+      "is_deleted": false,
+      "created_at": "2024-05-01T20:18:29.985281Z",
+      "updated_at": "2024-05-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 219,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "259S_ZNTG",
+      "notes": "Netgear GS724T #73",
+      "is_deleted": false,
+      "created_at": "2024-02-21T20:18:29.985281Z",
+      "updated_at": "2024-02-21T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 220,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "835N_UD80",
+      "notes": "Netgear GS724T #93",
+      "is_deleted": false,
+      "created_at": "2025-01-16T20:18:29.985281Z",
+      "updated_at": "2025-01-16T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 221,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "879C_UP75",
+      "notes": "Netgear GS724T #29",
+      "is_deleted": false,
+      "created_at": "2024-06-07T20:18:29.985281Z",
+      "updated_at": "2024-06-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 222,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "995F-HGJ7",
+      "notes": "Netgear GS724T #39",
+      "is_deleted": false,
+      "created_at": "2024-04-03T20:18:29.985281Z",
+      "updated_at": "2024-04-03T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 223,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "907O-DNMX",
+      "notes": "Netgear GS724T #64",
+      "is_deleted": false,
+      "created_at": "2023-07-05T20:18:29.985281Z",
+      "updated_at": "2023-07-05T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 224,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "366T_NO81",
+      "notes": "Netgear GS724T #25",
+      "is_deleted": false,
+      "created_at": "2023-07-19T20:18:29.985281Z",
+      "updated_at": "2023-07-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 225,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "792W-HIK1",
+      "notes": "Netgear GS724T #13",
+      "is_deleted": false,
+      "created_at": "2024-03-11T20:18:29.985281Z",
+      "updated_at": "2024-03-11T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 226,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "476M-RHX1",
+      "notes": "Netgear GS724T #25",
+      "is_deleted": false,
+      "created_at": "2025-01-03T20:18:29.985281Z",
+      "updated_at": "2025-01-03T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 227,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "976B@EYQ9",
+      "notes": "Netgear GS724T #2",
+      "is_deleted": false,
+      "created_at": "2023-10-31T20:18:29.985281Z",
+      "updated_at": "2023-10-31T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 228,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "93NV_WTA3",
+      "notes": "Netgear GS724T #49",
+      "is_deleted": false,
+      "created_at": "2023-08-19T20:18:29.985281Z",
+      "updated_at": "2023-08-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 229,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "84EX_GQCN",
+      "notes": "Netgear GS724T #84",
+      "is_deleted": false,
+      "created_at": "2025-01-04T20:18:29.985281Z",
+      "updated_at": "2025-01-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 230,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "13GE-YJ72",
+      "notes": "Netgear GS724T #3",
+      "is_deleted": false,
+      "created_at": "2024-02-20T20:18:29.985281Z",
+      "updated_at": "2024-02-20T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 231,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "73PB-DG51",
+      "notes": "Netgear GS724T #77",
+      "is_deleted": false,
+      "created_at": "2024-09-02T20:18:29.985281Z",
+      "updated_at": "2024-09-02T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 232,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "59FK-OZ37",
+      "notes": "Netgear GS724T #11",
+      "is_deleted": false,
+      "created_at": "2024-01-01T20:18:29.985281Z",
+      "updated_at": "2024-01-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 233,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "69QN@XP0I",
+      "notes": "Netgear GS724T #95",
+      "is_deleted": false,
+      "created_at": "2024-04-24T20:18:29.985281Z",
+      "updated_at": "2024-04-24T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 234,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "64FF@DZ79",
+      "notes": "Netgear GS724T #56",
+      "is_deleted": false,
+      "created_at": "2024-03-15T20:18:29.985281Z",
+      "updated_at": "2024-03-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 235,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "98QE_BZW6",
+      "notes": "Netgear GS724T #85",
+      "is_deleted": false,
+      "created_at": "2024-06-19T20:18:29.985281Z",
+      "updated_at": "2024-06-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 236,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "231P@RI3R",
+      "notes": "Netgear GS724T #88",
+      "is_deleted": false,
+      "created_at": "2024-12-01T20:18:29.985281Z",
+      "updated_at": "2024-12-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 237,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "538B_ANHE",
+      "notes": "Netgear GS724T #13",
+      "is_deleted": false,
+      "created_at": "2024-05-26T20:18:29.985281Z",
+      "updated_at": "2024-05-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 238,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "49VZ@HVS7",
+      "notes": "Netgear GS724T #70",
+      "is_deleted": false,
+      "created_at": "2024-06-02T20:18:29.985281Z",
+      "updated_at": "2024-06-02T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 239,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "30XN@JC62",
+      "notes": "Netgear GS724T #96",
+      "is_deleted": false,
+      "created_at": "2023-08-30T20:18:29.985281Z",
+      "updated_at": "2023-08-30T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 240,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "431W_MM95",
+      "notes": "Netgear GS724T #22",
+      "is_deleted": false,
+      "created_at": "2023-12-15T20:18:29.985281Z",
+      "updated_at": "2023-12-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 241,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "094R@IG10",
+      "notes": "Netgear GS724T #10",
+      "is_deleted": false,
+      "created_at": "2023-09-23T20:18:29.985281Z",
+      "updated_at": "2023-09-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 242,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "298T@ZNZG",
+      "notes": "Netgear GS724T #1",
+      "is_deleted": false,
+      "created_at": "2024-11-23T20:18:29.985281Z",
+      "updated_at": "2024-11-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 243,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "43NP-PMQ4",
+      "notes": "Netgear GS724T #10",
+      "is_deleted": false,
+      "created_at": "2023-07-17T20:18:29.985281Z",
+      "updated_at": "2023-07-17T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 244,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "871L-WE8J",
+      "notes": "Netgear GS724T #85",
+      "is_deleted": false,
+      "created_at": "2023-06-16T20:18:29.985281Z",
+      "updated_at": "2023-06-16T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 245,
+    "fields": {
+      "equipment_type": 7,
+      "serial_number": "413P@LZXC",
+      "notes": "Netgear GS724T #33",
+      "is_deleted": false,
+      "created_at": "2024-06-25T20:18:29.985281Z",
+      "updated_at": "2024-06-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 246,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "XG44GZ7V",
+      "notes": "Zyxel GS2200 #73",
+      "is_deleted": false,
+      "created_at": "2024-02-06T20:18:29.985281Z",
+      "updated_at": "2024-02-06T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 247,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "XL69JS3N",
+      "notes": "Zyxel GS2200 #80",
+      "is_deleted": false,
+      "created_at": "2025-03-26T20:18:29.985281Z",
+      "updated_at": "2025-03-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 248,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "PO71FUKV",
+      "notes": "Zyxel GS2200 #100",
+      "is_deleted": false,
+      "created_at": "2023-08-18T20:18:29.985281Z",
+      "updated_at": "2023-08-18T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 249,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "CK524F9C",
+      "notes": "Zyxel GS2200 #63",
+      "is_deleted": false,
+      "created_at": "2024-05-13T20:18:29.985281Z",
+      "updated_at": "2024-05-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 250,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "IK785D2K",
+      "notes": "Zyxel GS2200 #3",
+      "is_deleted": false,
+      "created_at": "2023-07-25T20:18:29.985281Z",
+      "updated_at": "2023-07-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 251,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "VL96XOXK",
+      "notes": "Zyxel GS2200 #19",
+      "is_deleted": false,
+      "created_at": "2023-06-04T20:18:29.985281Z",
+      "updated_at": "2023-06-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 252,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "DC276H3N",
+      "notes": "Zyxel GS2200 #41",
+      "is_deleted": false,
+      "created_at": "2025-03-26T20:18:29.985281Z",
+      "updated_at": "2025-03-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 253,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "KL23KBSN",
+      "notes": "Zyxel GS2200 #33",
+      "is_deleted": false,
+      "created_at": "2024-10-19T20:18:29.985281Z",
+      "updated_at": "2024-10-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 254,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "BV364R1C",
+      "notes": "Zyxel GS2200 #45",
+      "is_deleted": false,
+      "created_at": "2023-11-06T20:18:29.985281Z",
+      "updated_at": "2023-11-06T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 255,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "CV76IG7N",
+      "notes": "Zyxel GS2200 #19",
+      "is_deleted": false,
+      "created_at": "2024-11-08T20:18:29.985281Z",
+      "updated_at": "2024-11-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 256,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "QP30MF2W",
+      "notes": "Zyxel GS2200 #37",
+      "is_deleted": false,
+      "created_at": "2023-11-07T20:18:29.985281Z",
+      "updated_at": "2023-11-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 257,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "NW446D5U",
+      "notes": "Zyxel GS2200 #64",
+      "is_deleted": false,
+      "created_at": "2023-07-24T20:18:29.985281Z",
+      "updated_at": "2023-07-24T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 258,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "WF642A4R",
+      "notes": "Zyxel GS2200 #41",
+      "is_deleted": false,
+      "created_at": "2025-04-27T20:18:29.985281Z",
+      "updated_at": "2025-04-27T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 259,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "JQ860VIB",
+      "notes": "Zyxel GS2200 #48",
+      "is_deleted": false,
+      "created_at": "2023-12-08T20:18:29.985281Z",
+      "updated_at": "2023-12-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 260,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "LX625G8S",
+      "notes": "Zyxel GS2200 #97",
+      "is_deleted": false,
+      "created_at": "2025-01-02T20:18:29.985281Z",
+      "updated_at": "2025-01-02T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 261,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "EN19GHHK",
+      "notes": "Zyxel GS2200 #25",
+      "is_deleted": false,
+      "created_at": "2023-11-01T20:18:29.985281Z",
+      "updated_at": "2023-11-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 262,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "ZJ633SHD",
+      "notes": "Zyxel GS2200 #84",
+      "is_deleted": false,
+      "created_at": "2024-05-21T20:18:29.985281Z",
+      "updated_at": "2024-05-21T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 263,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "BA57PSXZ",
+      "notes": "Zyxel GS2200 #95",
+      "is_deleted": false,
+      "created_at": "2023-06-10T20:18:29.985281Z",
+      "updated_at": "2023-06-10T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 264,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "ZO14LJ7W",
+      "notes": "Zyxel GS2200 #12",
+      "is_deleted": false,
+      "created_at": "2024-01-24T20:18:29.985281Z",
+      "updated_at": "2024-01-24T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 265,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "MI447KQV",
+      "notes": "Zyxel GS2200 #31",
+      "is_deleted": false,
+      "created_at": "2023-11-30T20:18:29.985281Z",
+      "updated_at": "2023-11-30T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 266,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "SG30SB5U",
+      "notes": "Zyxel GS2200 #78",
+      "is_deleted": false,
+      "created_at": "2024-11-14T20:18:29.985281Z",
+      "updated_at": "2024-11-14T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 267,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "AW333U5I",
+      "notes": "Zyxel GS2200 #40",
+      "is_deleted": false,
+      "created_at": "2024-05-29T20:18:29.985281Z",
+      "updated_at": "2024-05-29T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 268,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "BF10AM2B",
+      "notes": "Zyxel GS2200 #49",
+      "is_deleted": false,
+      "created_at": "2023-09-21T20:18:29.985281Z",
+      "updated_at": "2023-09-21T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 269,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "YK061BRR",
+      "notes": "Zyxel GS2200 #64",
+      "is_deleted": false,
+      "created_at": "2023-06-08T20:18:29.985281Z",
+      "updated_at": "2023-06-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 270,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "OD49DOMF",
+      "notes": "Zyxel GS2200 #11",
+      "is_deleted": false,
+      "created_at": "2023-09-23T20:18:29.985281Z",
+      "updated_at": "2023-09-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 271,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "EA89IXIW",
+      "notes": "Zyxel GS2200 #50",
+      "is_deleted": false,
+      "created_at": "2023-07-01T20:18:29.985281Z",
+      "updated_at": "2023-07-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 272,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "CH33PW9L",
+      "notes": "Zyxel GS2200 #82",
+      "is_deleted": false,
+      "created_at": "2024-08-08T20:18:29.985281Z",
+      "updated_at": "2024-08-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 273,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "PE70XP7F",
+      "notes": "Zyxel GS2200 #27",
+      "is_deleted": false,
+      "created_at": "2024-01-31T20:18:29.985281Z",
+      "updated_at": "2024-01-31T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 274,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "MQ60WJTZ",
+      "notes": "Zyxel GS2200 #5",
+      "is_deleted": false,
+      "created_at": "2023-10-24T20:18:29.985281Z",
+      "updated_at": "2023-10-24T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 275,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "MP75HE4B",
+      "notes": "Zyxel GS2200 #50",
+      "is_deleted": false,
+      "created_at": "2024-02-20T20:18:29.985281Z",
+      "updated_at": "2024-02-20T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 276,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "EK167YYF",
+      "notes": "Zyxel GS2200 #68",
+      "is_deleted": false,
+      "created_at": "2025-02-07T20:18:29.985281Z",
+      "updated_at": "2025-02-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 277,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "JR042S4R",
+      "notes": "Zyxel GS2200 #13",
+      "is_deleted": false,
+      "created_at": "2025-03-22T20:18:29.985281Z",
+      "updated_at": "2025-03-22T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 278,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "DZ47VAIW",
+      "notes": "Zyxel GS2200 #62",
+      "is_deleted": false,
+      "created_at": "2024-08-11T20:18:29.985281Z",
+      "updated_at": "2024-08-11T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 279,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "ZL669ZZJ",
+      "notes": "Zyxel GS2200 #54",
+      "is_deleted": false,
+      "created_at": "2024-06-25T20:18:29.985281Z",
+      "updated_at": "2024-06-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 280,
+    "fields": {
+      "equipment_type": 8,
+      "serial_number": "AF04MKCB",
+      "notes": "Zyxel GS2200 #51",
+      "is_deleted": false,
+      "created_at": "2024-03-13T20:18:29.985281Z",
+      "updated_at": "2024-03-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 281,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "9595CS@@",
+      "notes": "Huawei S5700 #80",
+      "is_deleted": false,
+      "created_at": "2024-09-16T20:18:29.985281Z",
+      "updated_at": "2024-09-16T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 282,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "XE46XS__",
+      "notes": "Huawei S5700 #93",
+      "is_deleted": false,
+      "created_at": "2024-06-07T20:18:29.985281Z",
+      "updated_at": "2024-06-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 283,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "4975LL@_",
+      "notes": "Huawei S5700 #40",
+      "is_deleted": false,
+      "created_at": "2024-10-01T20:18:29.985281Z",
+      "updated_at": "2024-10-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 284,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "9815KY-@",
+      "notes": "Huawei S5700 #63",
+      "is_deleted": false,
+      "created_at": "2024-06-23T20:18:29.985281Z",
+      "updated_at": "2024-06-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 285,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "1038TB@-",
+      "notes": "Huawei S5700 #58",
+      "is_deleted": false,
+      "created_at": "2023-11-13T20:18:29.985281Z",
+      "updated_at": "2023-11-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 286,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "1O82YK@_",
+      "notes": "Huawei S5700 #42",
+      "is_deleted": false,
+      "created_at": "2024-09-08T20:18:29.985281Z",
+      "updated_at": "2024-09-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 287,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "6E98KY_-",
+      "notes": "Huawei S5700 #64",
+      "is_deleted": false,
+      "created_at": "2024-12-20T20:18:29.985281Z",
+      "updated_at": "2024-12-20T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 288,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "4203DM__",
+      "notes": "Huawei S5700 #79",
+      "is_deleted": false,
+      "created_at": "2024-02-19T20:18:29.985281Z",
+      "updated_at": "2024-02-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 289,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "0514QC@@",
+      "notes": "Huawei S5700 #78",
+      "is_deleted": false,
+      "created_at": "2024-02-26T20:18:29.985281Z",
+      "updated_at": "2024-02-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 290,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "MF99MT@_",
+      "notes": "Huawei S5700 #4",
+      "is_deleted": false,
+      "created_at": "2024-02-20T20:18:29.985281Z",
+      "updated_at": "2024-02-20T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 291,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "6E81HK@-",
+      "notes": "Huawei S5700 #63",
+      "is_deleted": false,
+      "created_at": "2023-07-23T20:18:29.985281Z",
+      "updated_at": "2023-07-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 292,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "8786MX_@",
+      "notes": "Huawei S5700 #62",
+      "is_deleted": false,
+      "created_at": "2024-01-15T20:18:29.985281Z",
+      "updated_at": "2024-01-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 293,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "Z596IM_@",
+      "notes": "Huawei S5700 #35",
+      "is_deleted": false,
+      "created_at": "2024-01-13T20:18:29.985281Z",
+      "updated_at": "2024-01-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 294,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "4357LS@@",
+      "notes": "Huawei S5700 #85",
+      "is_deleted": false,
+      "created_at": "2024-08-07T20:18:29.985281Z",
+      "updated_at": "2024-08-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 295,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "Q748OT-@",
+      "notes": "Huawei S5700 #42",
+      "is_deleted": false,
+      "created_at": "2024-02-23T20:18:29.985281Z",
+      "updated_at": "2024-02-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 296,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "2639HL_@",
+      "notes": "Huawei S5700 #22",
+      "is_deleted": false,
+      "created_at": "2024-11-15T20:18:29.985281Z",
+      "updated_at": "2024-11-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 297,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "F447IB_-",
+      "notes": "Huawei S5700 #53",
+      "is_deleted": false,
+      "created_at": "2023-08-11T20:18:29.985281Z",
+      "updated_at": "2023-08-11T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 298,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "7122BM-@",
+      "notes": "Huawei S5700 #59",
+      "is_deleted": false,
+      "created_at": "2023-06-04T20:18:29.985281Z",
+      "updated_at": "2023-06-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 299,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "8L73OW@@",
+      "notes": "Huawei S5700 #98",
+      "is_deleted": false,
+      "created_at": "2025-01-13T20:18:29.985281Z",
+      "updated_at": "2025-01-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 300,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "XM22CI@@",
+      "notes": "Huawei S5700 #14",
+      "is_deleted": false,
+      "created_at": "2024-05-01T20:18:29.985281Z",
+      "updated_at": "2024-05-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 301,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "PN38JJ@-",
+      "notes": "Huawei S5700 #63",
+      "is_deleted": false,
+      "created_at": "2023-09-14T20:18:29.985281Z",
+      "updated_at": "2023-09-14T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 302,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "A933KQ-@",
+      "notes": "Huawei S5700 #93",
+      "is_deleted": false,
+      "created_at": "2024-05-18T20:18:29.985281Z",
+      "updated_at": "2024-05-18T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 303,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "0L65GV--",
+      "notes": "Huawei S5700 #100",
+      "is_deleted": false,
+      "created_at": "2024-10-05T20:18:29.985281Z",
+      "updated_at": "2024-10-05T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 304,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "BH42FW@_",
+      "notes": "Huawei S5700 #66",
+      "is_deleted": false,
+      "created_at": "2023-11-29T20:18:29.985281Z",
+      "updated_at": "2023-11-29T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 305,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "1X91CU__",
+      "notes": "Huawei S5700 #6",
+      "is_deleted": false,
+      "created_at": "2024-10-14T20:18:29.985281Z",
+      "updated_at": "2024-10-14T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 306,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "A056NH--",
+      "notes": "Huawei S5700 #77",
+      "is_deleted": false,
+      "created_at": "2023-11-01T20:18:29.985281Z",
+      "updated_at": "2023-11-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 307,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "XZ47EP@_",
+      "notes": "Huawei S5700 #28",
+      "is_deleted": false,
+      "created_at": "2025-01-24T20:18:29.985281Z",
+      "updated_at": "2025-01-24T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 308,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "N992ED_-",
+      "notes": "Huawei S5700 #41",
+      "is_deleted": false,
+      "created_at": "2024-04-02T20:18:29.985281Z",
+      "updated_at": "2024-04-02T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 309,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "0002TE-@",
+      "notes": "Huawei S5700 #63",
+      "is_deleted": false,
+      "created_at": "2024-10-10T20:18:29.985281Z",
+      "updated_at": "2024-10-10T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 310,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "D397EB-_",
+      "notes": "Huawei S5700 #20",
+      "is_deleted": false,
+      "created_at": "2024-03-15T20:18:29.985281Z",
+      "updated_at": "2024-03-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 311,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "O121UI-_",
+      "notes": "Huawei S5700 #95",
+      "is_deleted": false,
+      "created_at": "2024-04-01T20:18:29.985281Z",
+      "updated_at": "2024-04-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 312,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "1Y69TC--",
+      "notes": "Huawei S5700 #46",
+      "is_deleted": false,
+      "created_at": "2024-06-22T20:18:29.985281Z",
+      "updated_at": "2024-06-22T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 313,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "3D87GA@-",
+      "notes": "Huawei S5700 #64",
+      "is_deleted": false,
+      "created_at": "2024-05-23T20:18:29.985281Z",
+      "updated_at": "2024-05-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 314,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "XN51DI-_",
+      "notes": "Huawei S5700 #5",
+      "is_deleted": false,
+      "created_at": "2023-05-05T20:18:29.985281Z",
+      "updated_at": "2023-05-05T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 315,
+    "fields": {
+      "equipment_type": 9,
+      "serial_number": "8020LA@@",
+      "notes": "Huawei S5700 #31",
+      "is_deleted": false,
+      "created_at": "2023-05-13T20:18:29.985281Z",
+      "updated_at": "2023-05-13T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 316,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "9TR1-7D55",
+      "notes": "Juniper EX2200 #65",
+      "is_deleted": false,
+      "created_at": "2023-08-17T20:18:29.985281Z",
+      "updated_at": "2023-08-17T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 317,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "9GG1@KO19",
+      "notes": "Juniper EX2200 #98",
+      "is_deleted": false,
+      "created_at": "2025-02-27T20:18:29.985281Z",
+      "updated_at": "2025-02-27T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 318,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3TZO-0768",
+      "notes": "Juniper EX2200 #3",
+      "is_deleted": false,
+      "created_at": "2024-07-11T20:18:29.985281Z",
+      "updated_at": "2024-07-11T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 319,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "9EOR@R169",
+      "notes": "Juniper EX2200 #37",
+      "is_deleted": false,
+      "created_at": "2023-10-25T20:18:29.985281Z",
+      "updated_at": "2023-10-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 320,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "0TTY-G479",
+      "notes": "Juniper EX2200 #19",
+      "is_deleted": false,
+      "created_at": "2023-06-08T20:18:29.985281Z",
+      "updated_at": "2023-06-08T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 321,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3PER@C208",
+      "notes": "Juniper EX2200 #2",
+      "is_deleted": false,
+      "created_at": "2024-06-04T20:18:29.985281Z",
+      "updated_at": "2024-06-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 322,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "4ZMJ-M204",
+      "notes": "Juniper EX2200 #93",
+      "is_deleted": false,
+      "created_at": "2023-08-01T20:18:29.985281Z",
+      "updated_at": "2023-08-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 323,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "1WNE@IX17",
+      "notes": "Juniper EX2200 #17",
+      "is_deleted": false,
+      "created_at": "2025-01-30T20:18:29.985281Z",
+      "updated_at": "2025-01-30T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 324,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "4LC1-7L99",
+      "notes": "Juniper EX2200 #63",
+      "is_deleted": false,
+      "created_at": "2024-11-07T20:18:29.985281Z",
+      "updated_at": "2024-11-07T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 325,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3AP9-2R72",
+      "notes": "Juniper EX2200 #47",
+      "is_deleted": false,
+      "created_at": "2024-08-20T20:18:29.985281Z",
+      "updated_at": "2024-08-20T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 326,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "6GIM_6461",
+      "notes": "Juniper EX2200 #67",
+      "is_deleted": false,
+      "created_at": "2024-09-25T20:18:29.985281Z",
+      "updated_at": "2024-09-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 327,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3FYY@0K78",
+      "notes": "Juniper EX2200 #83",
+      "is_deleted": false,
+      "created_at": "2023-09-19T20:18:29.985281Z",
+      "updated_at": "2023-09-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 328,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "9CV8-4344",
+      "notes": "Juniper EX2200 #53",
+      "is_deleted": false,
+      "created_at": "2024-08-09T20:18:29.985281Z",
+      "updated_at": "2024-08-09T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 329,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3ZR7_C845",
+      "notes": "Juniper EX2200 #34",
+      "is_deleted": false,
+      "created_at": "2024-06-28T20:18:29.985281Z",
+      "updated_at": "2024-06-28T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 330,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "7NE4-1S43",
+      "notes": "Juniper EX2200 #96",
+      "is_deleted": false,
+      "created_at": "2023-10-01T20:18:29.985281Z",
+      "updated_at": "2023-10-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 331,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "6AJZ@2666",
+      "notes": "Juniper EX2200 #77",
+      "is_deleted": false,
+      "created_at": "2024-01-04T20:18:29.985281Z",
+      "updated_at": "2024-01-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 332,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "1AJ5_L996",
+      "notes": "Juniper EX2200 #56",
+      "is_deleted": false,
+      "created_at": "2023-06-04T20:18:29.985281Z",
+      "updated_at": "2023-06-04T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 333,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "8EIK-RV25",
+      "notes": "Juniper EX2200 #46",
+      "is_deleted": false,
+      "created_at": "2024-10-01T20:18:29.985281Z",
+      "updated_at": "2024-10-01T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 334,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3HP4@9B65",
+      "notes": "Juniper EX2200 #29",
+      "is_deleted": false,
+      "created_at": "2025-01-30T20:18:29.985281Z",
+      "updated_at": "2025-01-30T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 335,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "0FQ6@CX45",
+      "notes": "Juniper EX2200 #12",
+      "is_deleted": false,
+      "created_at": "2023-06-12T20:18:29.985281Z",
+      "updated_at": "2023-06-12T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 336,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "1QC4@W270",
+      "notes": "Juniper EX2200 #75",
+      "is_deleted": false,
+      "created_at": "2024-04-30T20:18:29.985281Z",
+      "updated_at": "2024-04-30T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 337,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "6DRC-SA42",
+      "notes": "Juniper EX2200 #21",
+      "is_deleted": false,
+      "created_at": "2023-08-10T20:18:29.985281Z",
+      "updated_at": "2023-08-10T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 338,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "6RS2@8J21",
+      "notes": "Juniper EX2200 #46",
+      "is_deleted": false,
+      "created_at": "2023-12-26T20:18:29.985281Z",
+      "updated_at": "2023-12-26T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 339,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "8KYX@2838",
+      "notes": "Juniper EX2200 #82",
+      "is_deleted": false,
+      "created_at": "2024-07-14T20:18:29.985281Z",
+      "updated_at": "2024-07-14T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 340,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "2GWS_9L30",
+      "notes": "Juniper EX2200 #53",
+      "is_deleted": false,
+      "created_at": "2024-10-09T20:18:29.985281Z",
+      "updated_at": "2024-10-09T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 341,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "5DIT@4810",
+      "notes": "Juniper EX2200 #34",
+      "is_deleted": false,
+      "created_at": "2024-05-21T20:18:29.985281Z",
+      "updated_at": "2024-05-21T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 342,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "5DT0-JN80",
+      "notes": "Juniper EX2200 #57",
+      "is_deleted": false,
+      "created_at": "2024-08-05T20:18:29.985281Z",
+      "updated_at": "2024-08-05T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 343,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "2BGH@4333",
+      "notes": "Juniper EX2200 #89",
+      "is_deleted": false,
+      "created_at": "2024-07-25T20:18:29.985281Z",
+      "updated_at": "2024-07-25T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 344,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "2DK2_QQ05",
+      "notes": "Juniper EX2200 #44",
+      "is_deleted": false,
+      "created_at": "2024-04-19T20:18:29.985281Z",
+      "updated_at": "2024-04-19T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 345,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "0KQI-P330",
+      "notes": "Juniper EX2200 #54",
+      "is_deleted": false,
+      "created_at": "2023-08-21T20:18:29.985281Z",
+      "updated_at": "2023-08-21T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 346,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "1HX6-9V14",
+      "notes": "Juniper EX2200 #81",
+      "is_deleted": false,
+      "created_at": "2023-10-15T20:18:29.985281Z",
+      "updated_at": "2023-10-15T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 347,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "0CHD@OV42",
+      "notes": "Juniper EX2200 #15",
+      "is_deleted": false,
+      "created_at": "2023-10-23T20:18:29.985281Z",
+      "updated_at": "2023-10-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 348,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "3RV7_VU49",
+      "notes": "Juniper EX2200 #31",
+      "is_deleted": false,
+      "created_at": "2023-11-23T20:18:29.985281Z",
+      "updated_at": "2023-11-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 349,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "1TJ6@A484",
+      "notes": "Juniper EX2200 #21",
+      "is_deleted": false,
+      "created_at": "2023-11-23T20:18:29.985281Z",
+      "updated_at": "2023-11-23T20:18:29.985281Z"
+    }
+  },
+  {
+    "model": "equipment_app.equipment",
+    "pk": 350,
+    "fields": {
+      "equipment_type": 10,
+      "serial_number": "8NAZ-OH19",
+      "notes": "Juniper EX2200 #57",
+      "is_deleted": false,
+      "created_at": "2024-03-28T20:18:29.985281Z",
+      "updated_at": "2024-03-28T20:18:29.985281Z"
+    }
+  }
+]

@@ -1,0 +1,47 @@
+services:
+  db:
+    image: mysql:8
+    container_name: equipment_db
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+    env_file:
+      - .env
+
+  backend:
+    build:
+      context: ./backend
+      target: equipment_backend
+    container_name: equipment_backend
+    ports:
+      - "8000:8000"
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - .env
+
+  nginx:
+    build:
+      context: ./frontend
+      dockerfile: nginx/Dockerfile
+    container_name: equipment_nginx
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  mysql_data:
