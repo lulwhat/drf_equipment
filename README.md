@@ -25,4 +25,4 @@ Open in browser: `http://localhost/`
 
 API docs: `http://localhost/api/docs/`
 
-Shutdown: `Ctrl+C`
+Shutdown: `docker-compose down -v`
