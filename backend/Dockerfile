@@ -41,7 +41,8 @@ COPY ./app ./app
 
 RUN addgroup -S app && \
     adduser -S -G app -h /home/app/web app && \
-    chown -R app:app /home/app/web
+    chown -R app:app /home/app/web && \
+    chmod -R u+w /home/app/web
 
 USER app
 

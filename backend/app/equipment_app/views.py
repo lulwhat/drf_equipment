@@ -1,32 +1,30 @@
-from django.contrib.auth.models import User
-from django.db.models import Q, Count
-from django.shortcuts import get_object_or_404
+from django.contrib.auth import authenticate
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets, filters, status, generics
-from rest_framework.decorators import action
+from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
-from rest_framework_simplejwt.tokens import RefreshToken
 
+from .filters import EquipmentFilter, EquipmentTypeFilter
 from .models import Equipment, EquipmentType
 from .pagination import StandardResultsSetPagination
 from .serializers import EquipmentSerializer, EquipmentTypeSerializer, \
-    BulkEquipmentCreateSerializer, UserLoginSerializer, UserRegisterSerializer
+    UserLoginSerializer, UserRegisterSerializer
+from .services.equipment import create_equipment, soft_delete_equipment
+from .services.user import register_user, generate_tokens_for_user
 
 
 class EquipmentTypeViewSet(viewsets.ReadOnlyModelViewSet):
     """
     ViewSet for viewing equipment types.
     """
-    queryset = EquipmentType.objects.annotate(
-        equipment_count=Count(
-            'equipment',
-            filter=Q(equipment__is_deleted=False)
-        )
-    ).order_by('id', 'name')
+    queryset = (EquipmentType.objects
+                             .with_equipment_count()
+                             .order_by('id', 'name'))
     serializer_class = EquipmentTypeSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
+    filterset_class = EquipmentTypeFilter
     search_fields = ['name', 'serial_number_mask']
     pagination_class = StandardResultsSetPagination
 
@@ -37,38 +35,54 @@ class EquipmentViewSet(viewsets.ModelViewSet):
     """
     serializer_class = EquipmentSerializer
     permission_classes = [IsAuthenticated]
-    filter_backends = [DjangoFilterBackend, filters.SearchFilter]
-    search_fields = ['serial_number', 'notes', 'equipment_type__name']
-    filterset_fields = ['equipment_type']
+    filter_backends = [DjangoFilterBackend]
+    filterset_class = EquipmentFilter
+    ordering_fields = ['id', 'created_at', 'updated_at', 'serial_number']
     pagination_class = StandardResultsSetPagination
 
     def get_queryset(self):
         return (Equipment.objects
-                .filter(is_deleted=False)
+                .active()
                 .order_by('id', 'created_at'))
 
     def create(self, request, *args, **kwargs):
+        equipment_type_id = request.data.get('equipment_type')
         if 'serial_numbers' in request.data:
-            serializer = BulkEquipmentCreateSerializer(data=request.data)
-            serializer.is_valid(raise_exception=True)
-            equipment_list = serializer.save()
-            result_serializer = EquipmentSerializer(equipment_list, many=True)
-            return Response(result_serializer.data,
-                            status=status.HTTP_201_CREATED)
-        return super().create(request, *args, **kwargs)
+            serial_numbers = request.data.get('serial_numbers')
+        else:
+            serial_numbers = [request.data.get('serial_number', '')]
+        notes = request.data.get('notes', '')
+
+        try:
+            equipment_list = create_equipment(
+                equipment_type_id, serial_numbers, notes
+            )
+        except ValidationError as e:
+            return Response(
+                {
+                    "serial_numbers_errors":
+                        e.detail.get("serial_numbers_errors", [])
+                },
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        result_serializer = EquipmentSerializer(equipment_list, many=True)
+        return Response(
+            result_serializer.data,
+            status=status.HTTP_201_CREATED
+        )
 
     def destroy(self, request, *args, **kwargs):
         """Safe delete"""
         equipment = self.get_object()
-        equipment.is_deleted = True
-        equipment.save()
+        soft_delete_equipment(equipment)
         return Response(status=status.HTTP_204_NO_CONTENT)
 
     def retrieve(self, request, pk=None, *args, **kwargs):
         """
         Retrieve single equipment instance by ID.
         """
-        equipment = get_object_or_404(Equipment, pk=pk, is_deleted=False)
+        equipment = Equipment.objects.get_active_or_404(pk=pk)
         serializer = self.get_serializer(equipment)
         return Response(serializer.data)
 
@@ -87,29 +101,22 @@ class UserLoginView(generics.GenericAPIView):
         username = serializer.validated_data['username']
         password = serializer.validated_data['password']
 
-        try:
-            user = User.objects.get(username=username)
-        except User.DoesNotExist:
+        user = authenticate(username=username, password=password)
+
+        if user is None:
             return Response(
-                {"error": "Invalid credentials"},
+                {'error': 'Invalid credentials'},
                 status=status.HTTP_401_UNAUTHORIZED
             )
 
-        if not user.check_password(password):
-            return Response(
-                {"error": "Invalid credentials"},
-                status=status.HTTP_401_UNAUTHORIZED
-            )
-
-        refresh = RefreshToken.for_user(user)
-        access_token = refresh.access_token
+        tokens = generate_tokens_for_user(user)
 
         return Response({
-            "access_token": str(access_token),
-            "refresh_token": str(refresh),
-            "user_id": user.pk,
-            "email": user.email,
-            "username": user.username
+            'access_token': tokens['access_token'],
+            'refresh_token': tokens['refresh_token'],
+            'user_id': user.pk,
+            'email': user.email,
+            'username': user.username
         })
 
 
@@ -128,24 +135,19 @@ class UserRegisterView(generics.GenericAPIView):
         password = serializer.validated_data['password']
         email = serializer.validated_data.get('email', '')
 
-        if User.objects.filter(username=username).exists():
+        try:
+            user = register_user(username, password, email)
+        except ValueError as e:
             return Response(
-                {'error': 'Username already exists'},
+                {'error': str(e)},
                 status=status.HTTP_400_BAD_REQUEST
             )
 
-        user = User.objects.create_user(
-            username=username,
-            password=password,
-            email=email
-        )
-
-        refresh = RefreshToken.for_user(user)
-        access_token = refresh.access_token
+        tokens = generate_tokens_for_user(user)
 
         return Response({
-            'access_token': str(access_token),
-            'refresh_token': str(refresh),
+            'access_token': tokens['access_token'],
+            'refresh_token': tokens['refresh_token'],
             'user_id': user.pk,
             'username': user.username,
             'email': user.email

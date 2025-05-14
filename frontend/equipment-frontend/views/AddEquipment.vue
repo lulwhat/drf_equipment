@@ -39,11 +39,17 @@
                 <p><strong>The following serial numbers have errors:</strong></p>
                 <ul>
                   <li v-for="(error, index) in errors.serial_numbers_errors" :key="index">
-                    {{ error.serial_number }}: {{ error.error }}
+                    <p><strong>{{ error.serial_number }}:</strong></p>
+                    <ul>
+                      <li v-for="(message, idx) in error.error" :key="idx">
+                        {{ message }}
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
             </div>
+
           </div>
           
           <div class="mb-3">

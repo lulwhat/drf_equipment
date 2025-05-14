@@ -17,12 +17,14 @@ Task description for the API: [task_description.docx](/task_description.docx)
 
 ### To use locally run following steps:
 
-Build containers: `docker-compose up --build -d`
+Build containers:
++ Either straight-up execute `./setup` (`.env` will be created from [.env.example](/.env.example) copy)
++ Or create your own `.env` based on [.env.example](/.env.example) and then run `./setup`
 
 Check containers are up and running: `docker ps -a` (might be about 10 sec delay to be fully operational after containers "started" because of healthchecks)
 
-Open in browser: `http://localhost/`
+Open in browser: <http://localhost/>
 
-API docs: `http://localhost/api/docs/`
+API docs: <http://localhost/api/docs/>
 
 Shutdown: `docker-compose down -v`

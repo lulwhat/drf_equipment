@@ -30,3 +30,6 @@ coverage
 *.tsbuildinfo
 
 __pycache__/
+
+venv
+.env
