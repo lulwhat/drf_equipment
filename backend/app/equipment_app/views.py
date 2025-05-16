@@ -10,7 +10,8 @@ from .models import Equipment, EquipmentType
 from .pagination import StandardResultsSetPagination
 from .serializers import EquipmentSerializer, EquipmentTypeSerializer, \
     UserLoginSerializer, UserRegisterSerializer
-from .services.equipment import create_equipment, soft_delete_equipment
+from .services.equipment import create_equipment, soft_delete_equipment, \
+    update_equipment
 from .services.user import register_user, generate_tokens_for_user
 
 
@@ -66,10 +67,35 @@ class EquipmentViewSet(viewsets.ModelViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
 
-        result_serializer = EquipmentSerializer(equipment_list, many=True)
+        result_serializer = self.get_serializer(equipment_list, many=True)
         return Response(
             result_serializer.data,
             status=status.HTTP_201_CREATED
+        )
+
+    def update(self, request, *args, **kwargs):
+        equipment = self.get_object()
+        new_serial_number = request.data.get('serial_number')
+        new_equipment_type = request.data.get('equipment_type')
+        notes = request.data.get('notes')
+
+        try:
+            equipment = update_equipment(
+                equipment, new_equipment_type, new_serial_number, notes
+            )
+        except ValidationError as e:
+            return Response(
+                {
+                    "serial_numbers_errors":
+                        e.detail.get("serial_numbers_errors", [])
+                },
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
+        result_serializer = self.get_serializer(equipment)
+        return Response(
+            result_serializer.data,
+            status=status.HTTP_200_OK
         )
 
     def destroy(self, request, *args, **kwargs):

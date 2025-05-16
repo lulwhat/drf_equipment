@@ -87,7 +87,7 @@ def _validate_and_prepare_bulk_equipment(
         try:
             if Equipment.objects.active().filter(
                 equipment_type=equipment_type,
-                serial_number__iexact=serial_number
+                serial_number__exact=serial_number
             ).exists():
                 raise ValidationError(
                     "This serial number already exists for this equipment type"
@@ -183,7 +183,92 @@ def create_equipment(equipment_type_id, serial_numbers, notes=""):
         equipment_type, serial_numbers, notes
     )
     Equipment.objects.bulk_create(equipments)
-    return equipments
+
+    return Equipment.objects.filter(
+        equipment_type=equipment_type,
+        serial_number__in=serial_numbers
+    ).order_by('id')
+
+
+def update_equipment(equipment, equipment_type, serial_number, notes):
+    """Updates Equipment object. Includes validation
+
+    :param equipment_app.models.Equipment equipment:
+    :param (equipment_app.models.EquipmentType | None) equipment_type:
+    :param (str | None) serial_number:
+    :param (str | None) notes:
+
+    Returns:
+        Equipment: updated equipment object
+
+    Raises:
+        rest_framework.exceptions.ValidationError with error dict
+        "serial_numbers_errors": dict of errors for serial_number
+
+    """
+    # fix circular imports
+    from equipment_app.models import Equipment, EquipmentType
+
+    sn_errors = []
+    updated_fields = {}
+    need_serial_validation = False
+
+    if notes is not None and notes != equipment.notes:
+        notes = escape(notes)  # XSS injection protection
+        updated_fields['notes'] = notes
+
+    if equipment_type is None:
+        equipment_type = equipment.equipment_type
+
+    if equipment.equipment_type != equipment_type:
+        try:
+            equipment_type = EquipmentType.objects.get(pk=equipment_type)
+            updated_fields['equipment_type'] = equipment_type
+            need_serial_validation = True
+        except EquipmentType.DoesNotExist:
+            raise ValidationError(
+                detail={
+                    "serial_numbers_errors": [{
+                        "index": 0,
+                        "serial_number": "",
+                        "error": "New equipment type not found"
+                    }],
+                }
+            )
+
+    if serial_number is None:
+        serial_number = equipment.serial_number
+
+    if serial_number != equipment.serial_number or need_serial_validation:
+        sn_errors = _get_serial_numbers_errors(
+            serial_number, equipment_type.serial_number_mask
+        )
+        if not sn_errors and Equipment.objects.active().filter(
+            equipment_type=equipment_type,
+            serial_number__exact=serial_number
+        ).exclude(pk=equipment.pk).exists():
+            sn_errors.append(
+                "This serial number already exists for this equipment type."
+            )
+        updated_fields['serial_number'] = serial_number
+
+    if sn_errors:
+        raise ValidationError(
+            detail={
+                "serial_numbers_errors": [{
+                    "index": 0,
+                    "serial_number": serial_number,
+                    "error": sn_errors
+                }],
+            }
+        )
+
+    if updated_fields:
+        for field, value in updated_fields.items():
+            setattr(equipment, field, value)
+        equipment.save()
+
+    return equipment
 
 
 def soft_delete_equipment(equipment):

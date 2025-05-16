@@ -158,8 +158,17 @@
                   class="form-control" 
                   v-model="editForm.serial_number" 
                   required
+                  :class="{ 'is-invalid': hasSerialNumberErrors }"
                 >
-                <div v-if="editErrors.serial_number" class="text-danger mt-1">
+                <div v-if="hasSerialNumberErrors" class="invalid-feedback">
+                  <div v-for="(errorGroup, index) in editErrors.serial_numbers_errors" :key="index">
+                    <strong>{{ errorGroup.serial_number }}:</strong>
+                    <ul class="mb-0">
+                      <li v-for="(error, i) in errorGroup.error" :key="i">{{ error }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div v-else-if="editErrors.serial_number" class="invalid-feedback">
                   {{ editErrors.serial_number }}
                 </div>
               </div>
@@ -296,6 +305,9 @@ export default {
       }
       
       return range
+    },
+    hasSerialNumberErrors() {
+      return this.editErrors.serial_numbers_errors || this.editErrors.serial_number
     }
   },
   methods: {
@@ -380,7 +392,15 @@ export default {
         
       } catch (error) {
         if (error.response?.data) {
-          this.editErrors = error.response.data
+          if (error.response.data.serial_numbers_errors) {
+            this.editErrors = {
+              serial_numbers_errors: error.response.data.serial_numbers_errors
+            }
+          } else {
+            this.editErrors = error.response.data
+          }
+        } else {
+          console.error('Error updating equipment:', error)
         }
       } finally {
         this.updating = false

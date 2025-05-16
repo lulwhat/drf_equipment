@@ -81,7 +81,15 @@ export default {
         }, 2000)
         
       } catch (error) {
-        this.error = error.response?.data?.error || 'Registration failed. Please try again.'
+        if (error.response?.data) {
+          const errors = []
+          for (const field in error.response.data) {
+            errors.push(...error.response.data[field])
+          }
+          this.error = errors.join('. ') || 'Registration failed'
+        } else {
+          this.error = 'Registration failed. Please try again.'
+        }
       } finally {
         this.loading = false
       }
